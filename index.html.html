@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link  target="_blank"  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link  target="_blank"  href='https://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet'>
+
+    <link rel="stylesheet"  target="_blank"  href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet"  target="_blank"  href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<style>
+
+    #myVideo {
+/* position: fixed; */
+/* width: 100%;
+background-size: cover;
+height: 100vh;
+background-color: transparent; */
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+position: fixed;
+bottom: 0;
+background: rgba(0, 0, 0, 0.5);
+color: #f1f1f1;
+width: 100%;
+padding: 20px;
+height: 20vh;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+width: 200px;
+font-size: 18px;
+padding: 10px;
+border: none;
+background: #000;
+color: #fff;
+cursor: pointer;
+}
+
+#myBtn:hover {
+background: #ddd;
+color: black;
+}
+.nav{
+    
+}
+
+
+
+
+
+/* Add a light grey background on mouse-over */
+#body{
+ 
+      overflow-y: auto; /* Initial overflow-y value */
+      max-height: 200px; /* Example: Set a maximum height for demonstration */
+      /* border: 1px solid #000;  */
+   
+}
+.bhb{
+  background: url(./IMG/sky.jpeg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+ </style>
+
+ 
+<body class="bg-dark text-light bhb " id="body">
+
+    <nav class="navbar navbar-expand-lg  ">
+        <div class="container-fluid">
+          <a class="navbar-brand  fw-bolder link-light" style=" font-family: 'Arizonia'; "  target="_blank"  href="#"><img  class="mx-lg-3 " width="300" src="./logo/trans2.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto  mb-lg-0 col-lg-10 justify-content-evenly container">
+              <li class="nav-item active">
+                <a class="nav-link active link-light"  target="_blank"  href="#about">About</a>
+              </li>
+              <li class="nav-item active">
+                <a href="#work" class="nav-link active link-light" aria-disabled="true">My Projects</a>
+              </li>
+                <!-- <ul class="dropdown-menu">
+                  <li><a class="dropdown-item"  target="_blank"  href="#Wedding">Wedding</a></li>
+                  <li><a class="dropdown-item"  target="_blank"  href="#Yoga">Yoga</a></li>
+                  <li><a class="dropdown-item"  target="_blank"  href="#coffee">Coffee</a></li>
+                  <li><a class="dropdown-item"  target="_blank"  href="#mag">Magazine</a></li>
+                  <li><a class="dropdown-item"  target="_blank"  href="#cross"></a></li>
+                  <li><a class="dropdown-item"  target="_blank"  href="#cosmatic">Projec1</a></li>
+                  <li><a class="dropdown-item"  target="_blank"  href="#contruction">Projec1</a></li>
+                  <li><a class="dropdown-item"  target="_blank"  href="#weather">React Project(Weather) </a></li>
+                </ul> -->
+              <li class="nav-item active">
+                <a href="#education" class="nav-link active link-light" aria-disabled="true">Qualification</a>
+              </li>
+              <li class="nav-item">
+                <a href="#skills" class="nav-link active link-light" aria-disabled="true">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link active link-light" aria-disabled="true">Contact </a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+
+    <!-- <video autoplay muted loop id="myVideo" class="container-fluid" style="width: 100%; height: 120vh;">
+        <source src="IMG/pexels-rodnae-productions-7712354 (1080p).mp4">
+      </video>
+      <button id="myBtn" onclick="myFunction()">Pause</button> -->
+
+      <div class="content">
+        <h1 style=" font-family: 'Arizonia'; color: chartreuse;">Chetan Morey</h1>
+        <p class="fw-bold fs-5">Creation----..</p>
+        <button class="btn btn-light p-2 rounded-2 rounded-0"  onclick="mFunction()">Portfolio</button>
+      </div> 
+
+      <div id="about" class="mt-lg-5 p-3 text-center">
+        <h1 class="display-2" style=" font-family: 'Arizonia'; color: aqua;">About ME....</h1>
+      </div>
+      <section class="container mt-lg-5">
+       <div class="row">
+        <div class="col-lg-4 col-md-4 ">
+            <img class="img-fluid" src="./IMG/2.jpeg" alt="" width="300">
+        </div>
+        <div class="col-lg-8 col-md-8 p-lg-3 mt-lg-5 p-md-4">
+            <p class="fs-1" style=" font-size: 22px;"><b class="">I</b>am.... <b class="fs-3" style="color: aqua;font-family: 'Arizonia';">Chetan Devidas Morey </b>...</p>
+
+            <span>And Iam a</span><h1 class="display-2 fw-bolder" >Full <span id="c" ></span> <span id="d" ></span></h1>
+            <p class="mt-3"><b>Qualification:-</b> BE in Computer Science (CSE)</p>
+            <p class="mt-3">From Amravati(The Great City)</p>
+            <p class="mt-3">Live in Pune(Maharastra)</p>
+            <a class="btn btn-light rounded-0" target="_blank"  href="Resume/Chetan_Devidas Morey_Resume_17-08-2023-22-54-53 (3).pdf">CV Download</a>
+          </div>
+          
+       </div>
+    </section>
+
+
+    <section class="mt-lg-4 mt-5 mt-md-4 a" id="work" >
+         <div class="text-center  mt-lg-5">
+            <h1 class="display-2" style=" font-family: 'Arizonia'; color: aqua;"">Projects</h1>
+         </div>
+          
+          
+            <div class="container  text-center b mt-lg-5 mt-3" >
+                <div class="">
+                  <div class="d-lg-flex  ">
+                    <div class="col-lg-4 col-md-4   m-1 bg-transparent  text-light p-2 cards ">
+                      <div>
+                        <img width="200" class="img-fluid" src="./IMG/wed.jpeg" alt="">
+                        <div class=" p-1">
+                            <h3 style="font-family: 'Arizonia';">Wedding</h3>
+                            <p>Using HTML And Css  And BootStrap Only Totaly Responsive Projects  using html css</p>
+                            <a  target="_blank"  href="MyProjects/weeding-2/index.html" class="btn btn-outline-light rounded-0 col-5" style="font-family: 'Arizonia';">View Project...</a>
+                        </div>
+                       </div>
+
+
+                    </div>
+                    <div class="col-lg-4 col-md-4 m-1 bg-transparent  text-light p-2 cards">
+                      <div>
+                        <img width="200" class="img-fluid" src="./IMG/yo.jpeg" alt="">
+                    <div class="">
+                        <h3 style="font-family: 'Arizonia';">Yoga</h3>
+                        <p>Using HTML And Css  And BootStrap Only Totaly Responsive Projects  using html css</p>
+                        <a  target="_blank"  href="MyProjects/Yoga-Approved/index.html" class="btn btn-outline-light rounded-0 col-5" style="font-family: 'Arizonia';">View Project...</a>
+                    </div>
+                   </div>
+
+
+                    </div>
+                    <div class="col-lg-4 col-md-4  m-1 bg-transparent  text-light p-2 cards">
+                        <div>
+                          <img width="200" class="img-fluid" src="./IMG/coffee.jpeg" alt="">
+                          <div class="p-1">
+                              <h3 style="font-family: 'Arizonia';">Coffee</h3>
+                              <p>Using HTML And Css And BootStrap Only Totaly  Responsive Projects  using html css</p>
+                              <a  target="_blank"  href="MyProjects/Coffee-Approved/index.html" class="btn btn-outline-light rounded-0 col-5" style="font-family: 'Arizonia';">View Project...</a>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+
+                  <button id="of"  class="btn btn-outline-light rounded-0 fs-2 col-lg-4 mt-lg-5" style="font-family: 'Arizonia';" onclick="he()" >
+                      View More ..
+                  </button>
+    
+    
+                  <div style="display: none;" id="chetan">
+                    <div class="d-lg-flex p-2 ">
+                      <div class="col-lg-4 col-md-4 border m-1 bg-transparent  text-light p-2 cards">
+                         <!--  -->
+                         <div>
+                          <img width="200" class="img-fluid" src="./IMG/mag.webp" alt="">
+                          <div class=" p-1">
+                              <h3 style="font-family: 'Arizonia';">Magazine</h3>
+                              <p>Using HTML And Css  And BootStrap Only Totaly Responsive Projects  using html css</p>
+                              <a  target="_blank"  href="MyProjects/magazine/index.html" class="btn btn-outline-light rounded-0 col-5" style="font-family: 'Arizonia';">View Project...</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 border m-1 bg-transparent  text-light p-2 cards">
+                         <!--  -->
+                         <div>
+                          <img width="200" class="img-fluid" src="./IMG/cross.jpeg" alt="">
+                          <div class="">
+                             <div>
+                              <h3 style="font-family: 'Arizonia';">Cross</h3>
+                              <p>Using HTML And Css  And BootStrap Only Totaly Responsive Projects  using html css</p>
+                              <a  target="_blank"  href="MyProjects/crose/index.html" class="btn btn-outline-light rounded-0 col-5" style="font-family: 'Arizonia';">View Project...</a>
+                             </div>
+                          </div>
+                         </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 border m-1 bg-transparent  text-light p-2 cards">
+                          <div>
+                            <img width="200" class="img-fluid" src="./IMG/img-2.jpeg" alt="">
+                            <div class="p-1">
+                                <h3 style="font-family: 'Arizonia';">Cosmatic</h3>
+                                <p>Using HTML And Css And BootStrap Only Totaly  Responsive Projects  using html css</p>
+                                <a  target="_blank"  href="MyProjects/Cosmatic/index.html" class="btn btn-outline-light rounded-0 col-5" style="font-family: 'Arizonia';">View Project...</a>
+                            </div>
+                          </div>
+                      </div>
+                    </div> 
+                    <div class="d-lg-flex  cards ">
+                      <div class="col-lg-4 col-md-4 border m-1 bg-transparent  text-light   ">
+                          <div >
+                            <img width="200" class="img-fluid" src="./IMG/construction.jpeg" alt="">
+                            <div class="p-1">
+                                <h3 style="font-family: 'Arizonia';">Construction</h3>
+                                <p>Using HTML And Css  And BootStrap Only Totaly Responsive Projects  using html css</p>
+                                <a  target="_blank"  href="MyProjects/construction/index.html" class="btn btn-outline-light rounded-0 col-5" style="font-family: 'Arizonia';">View Project...</a>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 border m-1 bg-transparent  text-light ">
+                         <div>
+                          <img width="220" class="img-fluid" src="./IMG/hotel.jpeg" alt="">
+                          <div class=" p-1">
+                              <h3 style="font-family: 'Arizonia';">Hotel</h3>
+                              <p>Using HTML And Css  And BootStrap Only Totaly Responsive Projects  using html css</p>
+                              <a  target="_blank"  href="MyProjects/Hotel/index.html" class="btn btn-outline-dark rounded-0 col-5" style="font-family: 'Arizonia';">View Project...</a>
+                          </div>
+                         </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 border m-1 bg-transparent  text-light ">
+                         <div>
+                          <img width="200" class="img-fluid" src="./IMG/cross.jpeg" alt="">
+                        
+                          <div class="p-1">
+                              <h3 style="font-family: 'Arizonia';">Weather</h3>
+                              <p>Using React.js Using HTML And Css  And <br> BootStrap</p>
+                              <a  target="_blank"  href="http://localhost:3000/" class="btn btn-outline-light rounded-0 col-10 col-lg-5 col-md-4 " style="font-family: 'Arizonia';">View Project...</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+</section>
+<style>
+   .cards :hover{
+    background-color: rgb(154, 242, 242);
+   transition: 2s;
+   box-shadow: 0 0 25px white,0 0 50px rgb(245, 113, 113);
+    color: black;
+   }
+</style>
+
+
+<section id="education">
+    <div class="text-center mt-5">
+        <h3 class="display-2" style="font-family: 'Arizonia'; color: aqua;">Qulification</h3>
+    </div>
+</section>
+
+<style>
+   .ca :hover{
+    background-color: rgb(154, 242, 242);
+    transition: 2s;
+    color: black;
+   }
+</style>
+<div class="mt-lg-5 mt-3 container">
+   <div class="row" >
+      <div class="col-lg-6 col-md-6 ca">
+        <div class=" rounded-0 p-3 border  " >
+          <img src="" class="card-img-top" alt="">
+          <div class="">
+            <h3 class=""><b>SSC 10th</b></h5>
+            <p class="">Shree Shraddhanandhan English Primery School Amravati</p>
+            <p>Percentage: <b>80.60%</b></p>
+            <a  target="_blank"  href="#" class="btn btn-outline-light rounded-0"  style="font-family: 'Arizonia'; ">Show Some Extra</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-6 ca mt-3 mt-lg-0 mt-md-0">
+        <div class="ca rounded-0 p-3 border">
+          <img src="" class="card-img-top" alt="">
+          <div class="">
+            <h3 class=""><b>HSC 12th</b></h5>
+            <p class="">Shree Shivaji Collage of Science and humanity Amravti</p>
+            <p>Percentage: <b>72.52%%</b></p>
+            <a  target="_blank"  href="#" class="btn btn-outline-light rounded-0"  style="font-family: 'Arizonia'; ">Show Some Extra</a>
+          </div>
+        </div>
+      </div>
+   </div>
+   </div>
+   <div class="container">
+    <div class="row    mt-3 mt-lg-0 mt-md-0" >
+      <div class="col-lg-6 col-md-6 ca">
+        <div class=" rounded-0  p-3 border " >
+          <img src="" class="card-img-top" alt="">
+         <div class="">
+          <div class="">
+            <h3 class=""><b>BE in Computer Science (CSE)</b></h5>
+            <p class="">P R Pote Patil Collage of Engineering And Manegnment Amravati</p>
+            <p>Percentage: <b>80.60%</b></p>
+            <a  target="_blank"  href="#" class="btn btn-outline-light rounded-0"  style="font-family: 'Arizonia'; ">Show Some Extra</a>
+          </div>
+         </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 ca ">
+        <div class=" rounded-0 border p-3" >
+          <img src="" class="card-img-top" alt="">
+         <div class="">
+          <div class="">
+            <h3 class=""><b>BE in Computer Science (CSE)</b></h5>
+            <p class="">P R Pote Patil Collage of Engineering And Manegnment Amravati</p>
+            <p>Percentage: <b>80.60%</b></p>
+            <a  target="_blank"  href="#" class="btn btn-outline-light rounded-0"  style="font-family: 'Arizonia'; ">Show Some Extra</a>
+          </div>
+         </div>
+        </div>
+      </div>
+  </div>
+</div>  
+<!-- <style>
+   .r{
+    background: url(./IMG/html\ new.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+   }
+   .css{
+    background: url(./IMG/css.webp);
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+   }
+   .java{
+    background: url(./IMG/java.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+   }
+   .react{
+    background: url(./IMG/react.webp);
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+   }
+   .jj{
+    background: url(./IMG/jjj.webp);
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+   }
+   .kk{
+    background: url(./IMG/kk.webp);
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+   }
+</style> -->
+
+<section class="mt-lg-5 mt-3" id="skills">
+   <div class="text-center">
+      <h1 class="display-2" style="font-family: 'Arizonia';color: aqua;">Skill</h1>
+   </div>
+  <!-- <div class="owl-carousel owl-theme main mt-lg-5 container">
+    <div class="item one r p-3 border ">
+        <h1 ><b>HTML</b></h1>
+        
+    </div>
+    <div class="item one css p-3 border">
+       <h1><b>CSS</b></h1>
+      
+    </div>
+    <div class="item one  jj p-3 border">
+      <h1><b>BOOTSTARP</b></h1>
+    
+    </div>
+    <div class="item one java p-3 border">
+       <h1><b>JAVASCRIPT</b></h1>
+       
+    </div>
+    <div class="item one kk p-3 border">
+      <h1><b>QCUARY</b></h1>
+     
+    </div>
+    <div class="item one react p-3 border">
+       <h1><b>REACT.JS</b></h1>
+      
+    </div>
+  </div>
+</section> -->
+
+
+<div id="carouselExampleDark" class="carousel carousel-light slide container">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="1000">
+      <div class="item one  p-3  ">
+        <h1 ><b>HTML</b></h1>
+        
+        <div class="mt-4 p-2 text-center">
+          <img class="img-fluid" src="./IMG/html new.jpeg" alt="" width="200">
+          <p class="fw-bold fs-4">HTML stands for HyperText Markup Language. It is used to design web pages using a markup <br> language. HTML is a combination of Hypertext and Markup language. Hypertext defines <br> the link between web pages.</p>
+      </div>
+    </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="1000">
+      <div class="item one  p-3  ">
+        <h1 ><b>CSS</b></h1>
+        <div class="mt-4 p-2 text-center">
+          <img class="img-fluid" src="./IMG/kk.webp" alt="" width="270">
+          <p class="fw-bold fs-4">Cascading Style Sheets, fondly referred to as CSS, is a simply designed language intended to simplify <br> the process of making web pages presentable. CSS allows you to apply styles to web <br> pages. </p>
+      </div>
+    </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <div class="item one  p-3  ">
+        <h1 ><b>Bootstrap</b></h1>
+        <div class="mt-4 p-2 text-center">
+          <img class="img-fluid" src="./IMG/java.jpeg" alt="" width="200">
+          <p class="fw-bold fs-4">Bootstrap is a powerful, feature-packed frontend toolkit. Build anything—from prototype to <br> production—in minutes.</p>
+      </div>
+    </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <div class="item one  p-3  ">
+        <h1 ><b>JavaScript</b></h1>
+        <div class="mt-4 p-2 text-center">
+          <img class="img-fluid" src="./IMG/kk.webp" alt="" width="250">
+          <p class="fw-bold fs-4">What is JavaScript introduction?
+            JavaScript is an object-oriented programming language that uses prototypes rather than using classes for <br> inheritance. It is a light-weighted and interpreted language. It is a case-sensitive <br> language.</p>
+      </div>
+    </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <div class="item one  p-3  ">
+        <h1 ><b>JQuery</b></h1>
+        <div class="mt-4 p-2 text-center">
+          <img class="img-fluid" src="./IMG/jjj.webp" alt="" width="200">
+          <p class="fw-bold fs-4">jQuery is an open source JavaScript library that simplifies the interactions between an HTML/CSS document, <br> or more precisely the Document Object Model (DOM), and JavaScript.</p>
+      </div>
+    </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <div class="item one  p-3  ">
+        <h1 ><b>React.js</b></h1>
+        <div class="mt-4 p-2 text-center">
+          <img class="img-fluid" src="./IMG/react.webp" alt="" width="250">
+          
+            <p class="fw-bold fs-4">We will build a small game during this tutorial. You might be tempted to skip it because you’re not building games — but give it a chance. <br> The techniques you’ll learn in the tutorial are fundamental to building any React app, and mastering it will give <br> you a deep understanding of React.</p>
+          
+      </div>
+    </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden ">Previous</span>
+  </button>
+  <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon " aria-hidden="true"></span>
+    <span class="visually-hidden ">Next</span>
+  </button>
+</div>
+
+
+
+<div class="container p-lg-5 p-md-3">
+  <div class="row">
+    <div class="col-lg-4">
+      <p>1) HTML</p>
+      <p>2) CSS</p>
+      <p>3) Bootstrap</p>
+      <p>4) Javascript</p>
+      <p>5) JQuery</p>
+    </div>
+    <div  class="col-lg-4">
+      <p>6) React.Js</p>
+      <p>7) Core-Java</p>
+      <p>8) Advance-Java</p>
+      <p>9) Spring</p>
+      <p>10) Springboot</p>
+    </div>
+  </div>
+</div>
+<style>
+    .flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: rgb(162, 203, 245);
+  color: white;
+  transform: rotateY(180deg);
+}
+</style>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="IMG/4.jpeg" alt="Avatar" style="width:300px;height:33vh;">
+    </div>
+    <div class="flip-card-back">
+      <h1 class="text-dark" style="font-family: 'Arizonia';">Chetan Morey</h1>
+      <p class="text-dark">(Computer Engineer)</p>
+      <p><img class="broder rounded-circle" src="IMG/3.jpeg" alt="" width="70"></p>
+    </div>
+  </div>
+</div>
+
+<section id="contact">
+    <div class="text-center">
+      <h1 class="display-2 fw-bold"  style="font-family: 'Arizonia'; color: aqua;">Contact</h1>
+    </div>
+    <marquee class="bg-light text-dark p-5" behavior="" direction="left">
+      <div class="d-flex justify-content-between">
+        <div class="mx-5">
+          <h3><b>Name:</b> Chetan Devidas Morey</h3>
+        </div>
+         <div class="mx-5">
+          <h3><b>Email: </b>Chetanmorey44@gmail.com,</h3>
+         </div>
+         <div class="mx-5">
+            <h3><b>Mobile No.:</b> 8180948755</h3>
+         </div>
+         <div class="mx-5">
+          <img src="./IMG/Logo.svg" alt="" width="200">
+       </div>
+      </div>
+    </marquee>
+</section>
+<style>
+  *{
+    font-family: 'Libre Baskerville', serif;
+  }
+</style>
+
+
+
+<!-- <div style="height: 100vh; width: 100%;">
+    <div id="carouselExampleInterval" class="carousel slide " style="width: 100%; height: 100%; justify-content: center; align-items: center; display: flex; " data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="800">
+            <img src="./IMG/1.jpeg" class="d-block " alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="1000">
+            <img src="./IMG/1.jpeg" class="d-block " alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="1000">
+            <img src="./IMG/1.jpeg" class="d-block " alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</div> -->
+
+<!-- <video controls class="vid">
+  <source src="IMG/pexels_videos_2216413 (1080p).mp4" >
+</video>
+
+<style>
+  .vid{
+    width: 100%;
+    height: 60vh;
+  }
+</style> -->
+         
+
+    
+
+   
+
+     
+
+
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+
+  setTimeout(()=>{
+    document.getElementById("c").innerHTML='Stack';
+  },1000);
+
+  setTimeout(() => {
+    document.getElementById('d').innerHTML='Devlopher';
+  }, 2000);
+   
+    var video = document.getElementById("myVideo");
+    
+   
+    var btn = document.getElementById("myBtn");
+    
+   
+    function myFunction() {
+      if (video.paused) {
+        video.play();
+        btn.innerHTML = "Pause";
+      } else {
+        video.pause();
+        btn.innerHTML = "Play";
+      }
+    }
+
+
+    function he(){
+       var chetan=document.getElementById("chetan").style.display='block';
+       var of=document.getElementById("of").style.display='none';
+    }
+
+    $('.main').owlCarousel({
+            margin:10,
+            dots:true,
+            nav:true,
+            autoplay:true,
+            loop:true,
+            autoplayHoverPause:true,
+            responsive:{
+                320:{
+                    items:1
+                },
+                768:{
+                    items:2
+                },
+                992:{
+                    items:3
+                }
+            }
+        });
+        function mFunction(){
+         var element= document.getElementById("body");
+
+         element.style.overflowY = (element.style.overflowY === "hidden") ? "auto" : "hidden";
+        }
+
+    </script>
+    
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>
